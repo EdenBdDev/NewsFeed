@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="logutil.newsfeed.MainActivity"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_gravity="top"
+
+        android:background="#ffffff">
+        <fragment android:name="logutil.newsfeed.fragments.ActionBarFrag"
+            android:id="@+id/ActionBar_Frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment android:name="logutil.newsfeed.fragments.NewsListFragment"
+            android:id="@+id/NewsFeeedFragd_Frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <fragment
+        android:name="logutil.newsfeed.fragments.ExtenedView"
+        android:id="@+id/Exteded_View_Frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+    <fragment
+        android:name="logutil.newsfeed.fragments.Board_Info"
+        android:id="@+id/Board_info_Frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewsFeed</string>
+    <string name="loading_text">Page Loading</string>
+    <string name="loading_more_items_text">Search for related movies</string>
+    <string name="example_text">"</string>
+    <string name="example_title">Cheers for you and friends</string>
+    <string name="NO_MATCH">"Sorry could not found the movie you were looking for."</string>
+    <string name="ABOUT">""NewsFeed app was design to give simple and relieable information,\n it interacts with ImdB in real-time generates a list of movies and series based on your filtered search.""</string>
+    <string name="CONTACT">"Support our team LogUtil, by visit our web-page down below\n"</string>
+    <string name="SITE_URL">"http://www.logutil.com"</string>
+    <string name="WELCOME">"Welcome to NewsFeed,\nEnter a keyword in the search above and we will gather a list of movies/series related its plot, Imdb's rating and more.\nHave fun! and keep watching."</string>
+</resources>
