@@ -19,7 +19,7 @@
             android:layout_height="wrap_content" />
 
         <fragment android:name="logutil.newsfeed.fragments.NewsListFragment"
-            android:id="@+id/NewsFeeedFragd_Frag"
+            android:id="@+id/NewsFeeedFrag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
